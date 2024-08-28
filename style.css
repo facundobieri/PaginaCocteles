@@ -18,8 +18,31 @@ h1, h2, h3, p, body{
 body{
     background-color: var(--color-background);
     color: var(--color-font);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: var(--color-background2);
     color: var(--color-font2);
+    padding: 1px 40px;
+    display: flex;
+    justify-content: space-between;
+    div, nav{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    #logo{
+        width: 50px;
+    }
+}
+.botones{
+    border: 1px solid var(--color-font);
+    font-size: larger;
+    margin: 0 auto 15px;
+    padding: 11px 0;
+    text-align: center;
+    width: 350px;
+    padding: 15px 0 10px;
 }
