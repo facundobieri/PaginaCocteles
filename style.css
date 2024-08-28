@@ -41,6 +41,21 @@ header{
         width: 50px;
     }
 }
+
+footer{
+    margin-top: auto;
+    background-color: var(--color-background2);
+    color: var(--color-darkmoon);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
 #inicio-main{
     display: flex;
     flex-direction: column;
